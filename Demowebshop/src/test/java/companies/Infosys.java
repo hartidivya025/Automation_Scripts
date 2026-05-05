@@ -15,7 +15,7 @@ public class Infosys {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		driver.get("https://www.infosys.com/");
-		Reporter.log("Infosys is launched",true);
+		Reporter.log("Infosys company is launched",true);
 	}
 
 }
